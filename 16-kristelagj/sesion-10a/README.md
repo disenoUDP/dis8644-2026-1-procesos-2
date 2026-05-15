@@ -86,3 +86,7 @@ Aquí hay que tener cuidado con no confundir los condensadores polarizados (u) y
 
 Terminando de designar huellas a símbolos, debemos pasar a PCB NEW
 
+-----
+
+HACIA UNA FILOSOFIÍA DE LA FOTOGRAFÍA—VILÉM FLUSSER
+
