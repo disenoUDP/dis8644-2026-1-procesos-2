@@ -28,11 +28,13 @@ Con las bibliotecas activadas nos vamos a file/new library para crear nuestra ca
   * palanca
   * switch
 
-> Para encontrar el interruptor, buscamos SW_SPST o ST_SPDT y le ponemos la huella Button_switch de 6mm
+![pantallazo](./imagenes/throw.jpg)
+
+> Para encontrar el interruptor, buscamos SW_SPST o ST_SPDT y le ponemos la huella [Button_Switch_THT:SW_PUSH_6mm]
 
 ### Etiquetas
 Conectar sin cableado en el esquemático
 
 * Para activarlo ocupamos la "L" de Label.
 
-La podemos usar para evitar el error de pin no conectado a la salida, debemos conectar desde la bateria y al output la etiqueta "PWG_FLAG".
+La podemos usar para evitar el error de pin no conectado a la salida, debemos conectar desde la bateria la etiqueta "PWG_FLAG".
