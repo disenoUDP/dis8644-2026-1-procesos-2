@@ -81,3 +81,13 @@ Mas arriba la copa de agua, más precion
 
 9v: lienzo espacio entre **0v y 9v** osea **Ground y VCC**
 
+4046: es una caja negra que convierte control de voltaje en frecuencia; quiere decir que si tiro un voltaje bajo hara una frecuencia mas lenta y si tiro un voltaje alto va a tirar una frecuancia mas rápida
+
+con el potenciometro que es una resistencia es un aparato que cambia resistencia en frecuencia
+
+
+Chip CD4040: tiene varias salidas que van a ser filtros de eso y hay otro mas lento que se llama binary counter
+
+Multiplexor: Cada información es un voltaje y una es la que decide cual es la salida
+
+
