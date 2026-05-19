@@ -152,7 +152,7 @@ Después se dibuja el borde de la PCB, ya que si no existe pueden aparecer error
 
 ### Trabajo en clases
 
-En esa clase alcanzamos a trabajar hasta el paso 3 del proceso de diseño de PCB.
+En esa clase alcanzamos a trabajar hasta el paso 3 del proceso.
 
 Hice los ejercicios de la clase junto a Benjamín, ya que no quedaban más computadores disponibles. Fuimos turnándonos durante la actividad, así que ambos pudimos experimentar y practicar las mismas cosas.
 
