@@ -1,6 +1,8 @@
 # sesion-08a
 28 de abril del 2026
 
+![ctrl + s](https://github.com/santiagocifuvelez/dis8644-2026-1-procesos-2/blob/main/08-santiagocifuvelez/sesion-08a/imagenes/gif1.gif)
+
 ¡Hola profe Aaron, Misa y Emi!, espero que se encuentren bien el día en el que estén leyendo estos textos de la bitácora. (esta es la clase antes de salir al break del semestre jiji).
 
 El día de hoy vimos KICADDDD:  
