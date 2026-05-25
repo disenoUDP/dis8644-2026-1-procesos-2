@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./imagenes/banana.gif" width="180">
+  <img src="./imagenes/Gato.gif" width="180">
 </p>
 
 <h1 align="center">🌸 Clase 08a — Primer acercamiento a KiCad 🌸</h1>
