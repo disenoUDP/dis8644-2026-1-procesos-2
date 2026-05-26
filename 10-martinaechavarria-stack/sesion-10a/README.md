@@ -5,7 +5,9 @@
 **Desarrollo en clase**
 
 Con nuestro equipo de trabajo estuvimos investigando diferentes opciones de percutores para elegir.
+
 Unos de ellos eran demasiado elaborados para el nivel de comprensión que tenemos.
+
 Cabe añadir que también tuvimos que descartar debido a algunos componentes o tipos de voltajes requeridos para estos.
 
 
