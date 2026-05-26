@@ -14,18 +14,10 @@ Esto fue lo más pro de la clase. A veces el componente que necesitas no existe 
 * **Hacer un Fork:** Básicamente es copiar un símbolo a mi propia biblioteca (.kicad_sym) y ahí sí, cambiarle lo que quiera con la tecla E o mover pines con la tecla M.
 * **Tip:** Si veo un asterisco (*) arriba, tengo que guardar los cambios.
 
-### Nuestra Solemne: El Grupo de Filtros 
+### Mi proyecto 2: Grupo de Filtros
+<img width="656" height="532" alt="image" src="https://github.com/user-attachments/assets/e137b730-a1ff-42b8-b38c-fee308fca614" />
 
-Escogimos el tema de filtros, estuvimos investigando qué componentes nos sirven para procesar audio o señales. Para esto, no nos basta con el NE555, necesitamos Amplificadores Operacionales (Op-Amps).
-
-### Propuestas de chips para nuestro circuito:
-
-* **TL072:** Sería ideal para un filtro activo.
-<img width="888" height="394" alt="image" src="https://github.com/user-attachments/assets/dceac75e-1769-4114-b234-ce965c1f19f8" />
-
-* **LM358:** Muy común y barato, perfecto si queremos hacer algo más sencillo pero que funcione de una.
-<img width="888" height="394" alt="image" src="https://github.com/user-attachments/assets/a4fdb2e8-a644-4028-931a-ba6baf637c77" />
-
+---
 Glosario rápido de lo que aprendí
 1. DRC (Design Rule Checking): Es el "policía" del programa que me dice si las pistas están muy juntas o si algo va a explotar.
 2. Gerber: Es el formato final. Es como el "PDF" de las placas, se lo mando a la fábrica y listo.
