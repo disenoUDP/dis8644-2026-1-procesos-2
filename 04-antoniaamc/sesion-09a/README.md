@@ -15,8 +15,8 @@
 
 Ejemplos:
 
-* resistencia → `10k`
-* capacitor → `100nF`
+* resistencia → `10k`  
+* capacitor → `100nF`  
 * integrado → nombre/valor correspondiente
 
 ---
@@ -31,14 +31,14 @@ Función:
 
 Ejemplo:
 
-* símbolo resistencia → huella `R_0805`
+* símbolo resistencia → huella `R_0805`  
 * símbolo ESP32 → huella específica del módulo
 
 Importancia:
 
 * sin huella asignada no se puede pasar correctamente al PCB
 
-> símbolo = representación lógica
+> símbolo = representación lógica  
 > huella = representación física en la placa
 
 ---
@@ -65,7 +65,7 @@ Atajo:
 
 ### Guardar proyecto
 
-* `Ctrl + S`
+* `Ctrl + S`  
 * `Cmd + S` (mac)
 
 ---
@@ -76,8 +76,8 @@ Atajo:
 
 Útil para:
 
-* repetir resistencias
-* copiar bloques
+* repetir resistencias  
+* copiar bloques  
 * acelerar diagramas repetitivos
 
 ---
@@ -92,8 +92,8 @@ Función:
 
 Permite:
 
-* revisar apariencia física  
-* observar componentes montados  
+* revisar apariencia física    
+* observar componentes montados   
 * verificar orientación y distribución  
 * previsualizar resultado final de la placa  
 
@@ -113,14 +113,14 @@ Importante:
 
 El editor de placas es otro software/herramienta dentro de KiCad. Esquemático y PCB son módulos distintos
 
-* **Editor esquemático** → conexiones lógicas/circuito
+* **Editor esquemático** → conexiones lógicas/circuito  
 * **Editor de placas (PCB Editor)** → diseño físico de la placa
 
 ---
 
 ## Tamaño aproximado de placas 
 
-* las placas PCB suelen ser pequeñas
+* las placas PCB suelen ser pequeñas  
 * referencia vista en clase:
 
   (entrega 2) -> `10 x 10 cm` máximo
@@ -131,12 +131,12 @@ El editor de placas es otro software/herramienta dentro de KiCad. Esquemático y
 
 Origen del plano en: `(50, 50)` (referencia que dio Matías)
 
-* sistema de plano cartesiano
-* medidas en `mm`
-* milímetros como unidad base
-* comentario:
+- sistema de plano cartesiano  
+- medidas en `mm`  
+- milímetros como unidad base  
+- comentario:
 
-  * *es un software europeo → uso natural del sistema métrico*
+> *"es un software europeo → uso natural del sistema métrico"*
 
 ---
 
@@ -144,17 +144,17 @@ Origen del plano en: `(50, 50)` (referencia que dio Matías)
 
 Sincroniza los cambios entre el esquemático y la PCB
 
-* revisa conexiones
-* actualiza componentes
-* detecta diferencias o conflictos (“atados”)
-* incorpora cambios nuevos del esquemático al PCB
+- revisa conexiones  
+- actualiza componentes  
+- detecta diferencias o conflictos (“atados”)  
+- incorpora cambios nuevos del esquemático al PCB
 
 Ejemplos:
 
-* componentes sin huella
-* conexiones faltantes
-* cambios de nombre/valor
-* componentes agregados o eliminados
+- componentes sin huella   
+- conexiones faltantes  
+- cambios de nombre/valor  
+- componentes agregados o eliminados  
 
 > funciona como una especie de puente de sincronización entre lógica y placa
 
@@ -170,11 +170,9 @@ Ejemplos:
 
 ## Dibujar líneas 🔵
 
-* usar la herramienta:
+Herramienta dibujar líneas...
 
-  * **dibujar líneas**
-
-Importante: no confundir con otras herramientas similares, existen varias opciones parecidas en la interfaz.
+> Importante: no confundir con otras herramientas similares, existen varias opciones parecidas en la interfaz.
 
 ---
 
@@ -186,12 +184,12 @@ Importante: no confundir con otras herramientas similares, existen varias opcion
 
 Función:
 
-* define el contorno físico de la PCB
+* define el contorno físico de la PCB  
 * indica por dónde se recorta/fabrica la placa
 
 Observación:
 
-* “se usa una vez”
+* “se usa una vez”  
 * va a ser importante principalmente durante la definición inicial de la placa
 
 ---
@@ -206,7 +204,7 @@ Observación:
 * menos riesgo de daños
 * bordes más suaves y seguros
 
-> para evitar puntas filudas auch auch
+> Para evitar puntas filudas auch auch.
 
 ---
 
@@ -214,7 +212,7 @@ Observación:
 
 Mientras Matías revisa radios o medidas específicas va modificando la grilla para llegar exactamente a los números/medidas que quiere
 
-> la grilla no es fija, se adapta según la necesidad del diseño
+> La grilla no es fija, se adapta según la necesidad del diseño.
 
 ---
 
@@ -222,10 +220,10 @@ Mientras Matías revisa radios o medidas específicas va modificando la grilla p
 
 * mientras se mueve un componente en el editor de placas:
 
-  * mantener apretado `Ctrl`
+  * mantener apretado `Ctrl`  
   * o `Cmd` en Mac
 
-Para desactivar temporalmente el “forzado a la rejilla” o mover componentes de forma más fluida/libre.
+> Para desactivar temporalmente el “forzado a la rejilla” o mover componentes de forma más fluida/libre.
 
 ---
 
@@ -236,13 +234,11 @@ Capas del diseño de la PCB
 
 # Configuración de pistas
 
-## Qué son las pistas
-
 En PCB, las conexiones no se hacen con cables, se usan **pistas**.
 
-**Pistas**: caminos conductores de cobre sobre la placa. Reemplazan los cables de los primeros circuitos.
+-  -  -  -  >  Caminos conductores de cobre sobre la placa. Reemplazan los cables de los primeros circuitos.
 
-> *“en vez de cables van a haber pistas”*
+> ***"en vez de cables van a haber pistas” :o :car:***
 
 ---
 
@@ -266,7 +262,7 @@ Se revisa en pestaña de configuración de pistas
 
 ## Orden recomendado
 
-1. primero ubicar los componentes que se quiere destacar visualmente
+1. primero ubicar los componentes que se quiere destacar visualmente  
 2. después organizar el resto según funcionamiento
 
 ---
@@ -281,13 +277,11 @@ Se revisa en pestaña de configuración de pistas
 
 ## Referencia mostrada por Matías 🔵
 
-Proyecto de referencia:
-
-* repositorio “phoskoto” de Matías en GitHub
+Proyecto de referencia: repositorio “phoskoto” de Matías en GitHub
 
 ---
 
-# Capas de la PCB 🥪:
+# Capas de la PCB 
 
 ---
 
@@ -295,7 +289,7 @@ Proyecto de referencia:
 
 Nombres comunes:
 
-* `F.Cu` → cobre frontal
+* `F.Cu` → cobre frontal  
 * `B.Cu` → cobre trasero
 
 * las pistas pueden existir en ambos lados de la placa
@@ -304,7 +298,7 @@ Nombres comunes:
 
 ## Serigrafía 
 
-En KiCad se pueden agregar gráficos/serigrafías a la PCB en varios formatos, pero los más usados son:
+Formatos más usados:
 
 | Formato                 | Uso                                        | Observaciones                                                     |
 | ----------------------- | ------------------------------------------ | ----------------------------------------------------------------- |
@@ -317,17 +311,15 @@ En KiCad se pueden agregar gráficos/serigrafías a la PCB en varios formatos, p
 
 ## Herramientas relacionadas 
 
-En KiCad existe:
-
-* **Import Graphics**
+* **Import Graphics**  
 * **Bitmap to Component / Bitmap Converter**
 
 Permiten convertir imágenes a gráficos PCB y pasarlas a:
 
-  * `F.SilkS`
-  * `B.SilkS`
-  * `Edge.Cuts`
-  * otras capas
+  - `F.SilkS`  
+  - `B.SilkS`  
+  - `Edge.Cuts`
+  - etc otras capas  
 
 ---
 
@@ -343,13 +335,13 @@ Permiten conectar pistas entre distintas capas y pasar una conexión desde la ca
 
 Objetivo:
 
-* diferenciar información visualmente
-* reconocer rápidamente qué tipo de elemento se está viendo
+* diferenciar información visualmente  
+* reconocer rápidamente qué tipo de elemento se está viendo  
 
 Ejemplos posibles:
 
-* rojo → capa frontal
-* azul → capa trasera
+* rojo → capa frontal  
+* azul → capa trasera  
 
 ---
 
@@ -357,7 +349,7 @@ Ejemplos posibles:
 
 Conectar eléctricamente los componentes mediante pistas siguiendo las conexiones definidas antes en el esquemático.
 
--> ***una mala distribución hace más difícil el routing***
+> ***una mala distribución hace más difícil el routing***
 
 ---
 
@@ -365,6 +357,6 @@ Conectar eléctricamente los componentes mediante pistas siguiendo las conexione
 
 Mientras mejor estén ubicados los componentes más fácil será conectar las pistas.
 
--> ***gran parte del trabajo PCB consiste en ordenar bien antes de empezar a rutear***
+> ***gran parte del trabajo PCB consiste en ordenar bien antes de empezar a rutear***
 
 
