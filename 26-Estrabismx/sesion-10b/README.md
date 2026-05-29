@@ -227,7 +227,7 @@ Se utiliza un transistor NPN (probar con un 2N2222), el cual se conecta desde la
 
 <br>
 
-## Texto
+## Texto 6 - 7
 
 Algo que me llamó la atención en estos capitulos, fue el enfoque que se le dio a la comunicación, entendiendo que finalmente una fotografía es un conjunto de datos (como se viene definiendo en capitulos anteriores). En este tema define 2 conceptos claves: 
 
