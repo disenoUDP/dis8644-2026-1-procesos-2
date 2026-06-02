@@ -100,6 +100,8 @@ No nos funciono a la primera y no logramos igualar el sonido al que sale en el v
 
 Para modificar el sonido cambiamos algunas resistencias y capacitadores buscando hacer que el sonido sea mas grave. 
 
+![trabajo_en_clase](./imagenes/trabajo.png)
+
 - Esquema idea de circuito (idea 2): (realizado por carla)
 
 misma base, solo cambia el oscilador inicial, en este caso como idea base es empezar por un 555 para ver como resulta. 
