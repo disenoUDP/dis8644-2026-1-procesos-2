@@ -49,15 +49,43 @@ Incluir enlace a video en youtube (puede estar en Oculto) con protoboard funcion
 
 ## Circuito 2
 
-Título módulo 2
+*Comunicaciones espaciales*
 
+Espacio, miles de kilómetros de espacio, 
+y voces vibrando en su centro.
+Ningún hombre al alcance de la vista,
+sólo las ondas de radio se agitaban
+tratando de emocionar a otros hombres.
+—Calidoscopio - Ray Bradbury
+
+*imagen: Schauer, K. (2021)*
+
+El sonido generado por el oscilador puede asemejarse al de una llamada o transmisión espacial dependiendo de cómo se regulan las ondas. El chip CD40106 tiene una compuerta inversora o Schmitt Trigger; si la entrada está en 0, la salida pasa a 1 y cuando la entrada está en 1, la salida pasa a 0. 
+Básicamente mantienen una constante comunicación para poder generar el sonido igualando la recepción constante de señales entre la Tierra y el espacio. Somos las comunicaciones espaciales desde la tierra (humanos monitoreando la “llamada” hacia objetos en el espacio, osea como nosotros estamos mandando una señal mediante el potenciador/ chip para así poder realizar la señas y sea audible al resto).
 ### Descripción general/conceptual 2
 
-¿Qué hace el circuito? Intentar explicarlo para gente que no sabe electrónica. Ejemplo: escucha los impactos sobre sí mismo y lo convierte en señales de aviso para otras cosas
+** ¿Qué hace el circuito? **
+
+El funcionamiento del CD40106 lo utilizaremos  comparándolo con una conversación entre la Tierra y una nave espacial.
+La resistencia y el condensador son una estación terrestre que espera la respuesta de la nave ( energía ). La salida está en alto, cuando la Tierra envía una señal de radio al espacio. Mientras la señal "viaja", el condensador se carga poco a poco. Cuando alcanza cierto nivel, el CD40106 cambia su salida, como si la nave hubiera respondido al mensaje.
+Cuando la señal alcanza el umbral superior del Schmitt Trigger, es cuando la nave hubiera recibido el mensaje y respondiera. En ese momento, la salida cambia a bajo, es aqui cuando comienza la segunda parte del viaje: el condensador se descarga para dar la señal de respuesta viajando de vuelta hacia la Tierra.
+Cuando el nivel baja lo suficiente, el CD40106 vuelve a cambiar su salida y se envía un nuevo mensaje. Este proceso se repite continuamente, generando una oscilación entre estados altos y bajos que produce una señal de audio, similar a una conversación constante entre la Tierra y una nave espacial.
 
 ### Descripción de funcionamiento 2
 
-Preguntas orientadoras: ¿Qué inputs recibe? ¿Qué outputs entrega? ¿Cómo administra los flujos de inputs a outputs internamente? ¿Qué componente es el "corazón/cerebro"? ¿Qué truco descubrimos en el camino? ¿Especulativamente, qué se podría conectar a este módulo en el futuro?
+Comunicaciones espaciales utiliza un chip CD40106 que es un inversor Schmidt Trigger, esto significa que contiene 6 inversores Schmitt Trigger independientes (si la entrada está en bajo (0), la salida está en alto (1) y viceversa) recibiendo un voltaje de 9v.
+
+¿Pero cómo trabaja todo esto internamente?
+
+ Todo esto está en un ciclo continuo. Primero la salida del inversor está cargando lentamente el condensador a través de la resistencia. Cuando el voltaje que está en el condensador alcanza un umbral superior, el chip CD40106 cambiará su estado pasando la salida estar en 0, el condensador comienza a descargarse hasta llegar al umbral inferior haciendo que el inversor cambie de estado.
+ 
+Todo esto indefinido, puede realizarse las veces que estimes. En resumidas cuentas, el condensador acumula la energía, el CD40106 llega a un umbral determinado que es su límite, cambia de estado y el ciclo vuelve a comenzar  (oscilando). Esto nos da a entender que el corazón de comunicaciones espaciales es el chip CD40106, ya que sin él no podría decidir cuándo cambiar entre 0 y 1, detectar el nivel de los condensadores y generar la onda cuadrada emitida hacia el parlante. 
+
+De este oscilador como grupo decidimos seguirlo paso a paso, pero fuimos cambiando los condensadores entre 100 uf a 1 uf, para así poder hacer la onda más rápida y hacerlo más agudo según como se mueven los potenciadores. 
+
+A veces la frecuencia alcanzada generó tonos tan intensos y agudos que llegaron a resultar molestos e incluso provocar dolor de cabeza verificados por experiencias propias. 
+A este oscilador en un futuro, le podemos añadir un secuenciador chip CD4040 que es un contador binario de 12 pasos. Desde el 40106 tendrá un input de onda cuadrada y un output con el 4040 de múltiples ondas cuadradas a distintas velocidades. 
+
 
 ### Esquemático 2
 
@@ -77,7 +105,7 @@ Preguntas orientadoras: ¿Qué inputs recibe? ¿Qué outputs entrega? ¿Cómo ad
 
 ### Documentación audiovisual funcionamiento protoboard 2
 
-Incluir enlace a video en youtube (puede estar en Oculto) con protoboard funcionando
+https://youtube.com/shorts/frkgmTlf4B8?si=f_mIFur9-M_zVIRZ
 
 ## Otros circuitos
 
