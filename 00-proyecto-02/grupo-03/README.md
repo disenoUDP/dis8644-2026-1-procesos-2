@@ -96,7 +96,9 @@ El nucleo del módulo es el chip CD4046, cuya frecuencia de oscilación varía s
 
 ## Otros circuitos
 
-¿Usaron otro circuito temporal para activar algunas cosas? ¿para probar inputs-outputs? Detallar cuales
+Para probar los inputs y outputs de nuestro módulo VCO utilizamos un circuito de salida de audio basado en el amplificador LM386 que utilizamos en el proyecto 01, conectado a un parlante. Este circuito recibía la señal de nuestro oscilador a través de una entrada MIX, permitiéndonos escuchar directamente si el VCO estaba generando la oscilación correctamente y verificar los cambios de frecuencia al girar los potenciómetros.
+
+![imagenes](./imagenes/salida.jpg)
 
 ## Colaboración con otros grupos
 
