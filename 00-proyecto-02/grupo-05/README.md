@@ -50,19 +50,36 @@ El proceso comenzó mucho antes de tocar la protoboard. Antes de comprar cualqui
 
 Paralelamente, buscamos inspiración en el mundo del audio real, específicamente en páginas especializadas en diseño de **pedales de guitarra**. Analizar cómo esos circuitos filtran la señal de las pastillas para modificar el timbre (brillo, cuerpo, distorsión) nos dio una perspectiva práctica muy útil: no solo cómo funciona un filtro en papel, sino por qué suena de una manera u otra dependiendo de los componentes elegidos. Esa investigación fue la base para decidir qué tipo de controles queríamos implementar.
 
+<div align="center">
+
+| | |
+|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/502f04e9-8ab0-48ec-9585-bbdf7aaffca4" height="350"/> | <img src="https://github.com/user-attachments/assets/c2b0dbfa-fde5-40b7-b633-d36660b19d41" height="350"/> |
+| <img src="https://github.com/user-attachments/assets/50866751-5d7e-468c-9154-bd5385bc1041" height="350"/> | <img src="https://github.com/user-attachments/assets/981587c5-1169-45f7-8380-93bef7ff11ab" height="350"/> |
+
+*Imágenes de referencia*
+
+</div>
+
 ---
 
 ### Organización y Selección de Materiales
 
- Evaluación de chips generadores de señal
+ Antes de comprar, evaluamos tres opciones para la generación de señal:
 
-Antes de comprar, evaluamos tres opciones para la generación de señal:
+<div align="center">
 
 | Chip | Tipo | Función |
-|------|------|---------|
+|:---:|:---:|:---:|
 | **CD4046** | VCO (oscilador controlado por voltaje) | Genera una frecuencia base ajustable con potenciómetro o voltaje externo |
 | **CD4040** | Divisor de frecuencia binario de 12 bits | Divide la frecuencia de entrada en sub-octavas (÷2, ÷4, ÷8...) |
 | **CD4017** | Contador de décadas / secuenciador | Activa 10 salidas en secuencia, útil para ritmos y melodías automáticas |
+
+| Chips 4046 | Chips 4040 | Chips 4017 |
+|:---:|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/4a539834-51f9-418b-a29d-5f891a722f6f" height="200"/> | <img src="https://github.com/user-attachments/assets/b313f909-e76d-4339-a375-bfa88e63fc44" height="200"/> | <img src="https://github.com/user-attachments/assets/4b8cc9f8-bff0-49de-9071-38b3cb2c8e7b" height="200"/> |
+
+</div>
 
 ### Decisión final
 
@@ -78,8 +95,32 @@ Esta combinación nos permitió tener en un solo módulo generación de señal, 
 
 El primer circuito que armamos fue el oscilador con el **CD4046 + TL072 + LM386 + parlante de 8Ω**. El objetivo era simple: que sonara algo. Una vez confirmado que el oscilador generaba señal audible, expandimos el circuito incorporando **4 potenciómetros** para tener control manual sobre distintos parámetros:
 
-- **Potenciómetro de volumen** conectado al LM386
+<div align="center">
+
+| | |
+|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/1ccf9e63-bc41-4a95-98b3-7d7474b36bcc" height="280"/> | <img src="https://github.com/user-attachments/assets/b0e1b06a-4588-49b7-89d3-08f77dbe818c" height="280"/> |
+| <img src="https://github.com/user-attachments/assets/d3497306-6bd5-4e97-8e39-767de32a82c1" height="280"/> | <img src="https://github.com/user-attachments/assets/babed4ab-e58d-473c-a968-e6cf1b5b310b" height="280"/> |
+
+| |
+|:---:|
+| <img src="https://github.com/user-attachments/assets/db8f67c7-cd93-438c-827b-2fa271f89d7f" height="280"/> |
+
+*Imágenes del proceso*
+
+</div>
+
+- **Potenciómetro de volumen** conectado al LM386 
 - **Dos potenciómetros en el CD4046**: uno controlando el rango de frecuencia y otro ajustando la "dulzura" o armonía de la onda (conectados a los pines 9, 11 y 12 del chip)
+- **Un potenciómetro en el TL072**
+
+<div align="center">
+
+<img  width="1100" height="700" alt="image" src="https://github.com/user-attachments/assets/a7a6d7a1-bbf2-447c-969a-9f55f170da4a" height="400"/>
+
+*Imagen del proceso*
+
+</div>
 
 ### El gran error del Pin 4
 
@@ -89,6 +130,7 @@ Revisamos las resistencias, probamos distintas conexiones, descartamos problemas
 
 Fue un error de no leer bien la hoja de datos antes de conectar. Aprendimos que revisar el datasheet pin por pin antes de armar el circuito ahorra horas de diagnóstico.
 
+
 ### Estabilización y limpieza de señal
 
 Al tener cables largos y múltiples conexiones en la protoboard, comenzamos a notar ruido e inestabilidad en la señal. Para resolverlo instalamos:
@@ -97,6 +139,10 @@ Al tener cables largos y múltiples conexiones en la protoboard, comenzamos a no
 - **Capacitores cerámicos ("lenteja")** cerca de cada chip para filtrar ruidos de alta frecuencia que los integrados generan internamente
 
 Esto es una práctica estándar en diseño de circuitos (desacoplamiento de alimentación) que en la protoboard se nota especialmente porque los cables largos actúan como antenas.
+
+### Video de demostración · prueba CD4046, TL072 y LM386
+
+▶️ [Ver video - Demostración prueba CD4046, TL072 y LM386](https://www.youtube.com/shorts/DG93RWHXpzA?feature=share)
 
 ---
 
