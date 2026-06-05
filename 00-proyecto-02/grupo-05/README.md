@@ -87,6 +87,14 @@ Optamos por usar el **CD4046, el TL072 y el LM386 en conjunto**. El CD4046 actú
 
 Esta combinación nos permitió tener en un solo módulo generación de señal, filtrado y amplificación, todo funcionando bajo el estándar de **5V** del proyecto modular.
 
+<div align="center">
+  
+| Chips 4046 | Chips TL072 | Chips LM386 |
+|:---:|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/4a539834-51f9-418b-a29d-5f891a722f6f" height="200"/> | <img src="https://github.com/user-attachments/assets/fc1f602d-0903-4c2c-956a-c842d7734174" height="200"/> | <img src="https://github.com/user-attachments/assets/5805a492-bd54-49dc-8818-950b4af8435d" height="200"/> |
+
+</div>
+
 ---
 
 ### Proceso de Prototipado y Trial & Error
@@ -183,6 +191,7 @@ El LM324 es un chip DIP-14 que contiene **4 amplificadores operacionales indepen
 Los pines que usamos y su función:
 
 <p align="center">
+  <img width="750" height="450" alt="Removed Background-0(2)" src="https://github.com/user-attachments/assets/4c28a324-6d43-4acf-8802-20edb779a4b0" />
   <img width="750" alt="image" src="https://github.com/user-attachments/assets/ff3aef47-5c0a-4d32-8a86-dc2395f2d94b" />
   <br/>
   <em>Configuración de Pines (LM324)</em>
@@ -217,19 +226,41 @@ Los pines que usamos y su función:
 
 **Descripción del esquemático:**
 
-- **Alimentación:** Entrada por dos conectores Barrel Jack (J2, J3) con diodo 1N4007 (D1) de protección contra inversión de polaridad. El LM7805 (U8) regula de +12V a +5V estables. Condensadores C5 (100µF), C6 (10µF) y C7 (100nF) filtran el ripple en distintas frecuencias. Un LED (D8) con resistencia de 1kΩ (R9) indica visualmente que hay alimentación activa.
+<!-- ALIMENTACIÓN -->
+<table><tr><td style="background:#E6F1FB; border-left:4px solid #378ADD; border-radius:6px; padding:10px 14px">
+<strong style="color:#0C447C">🔵 Alimentación</strong><br>
+<span style="color:#185FA5">Entrada por dos conectores Barrel Jack (J2, J3) con diodo 1N4007 (D1) de protección contra inversión de polaridad. El LM7805 (U8) regula de +12V a +5V estables. Condensadores C5 (100µF), C6 (10µF) y C7 (100nF) filtran el ripple en distintas frecuencias. Un LED (D8) con resistencia de 1kΩ (R9) indica visualmente que hay alimentación activa.</span>
+</td></tr></table>
 
-- **Etapa 1 — Buffer de entrada (U1A, LM324):** La señal de audio entra por el jack J4, pasa por un capacitor de acople C1 (1µF) que bloquea la componente DC, y llega a la entrada no inversora (+) del primer op-amp. La resistencia R1 (22kΩ) fija el punto de polarización. La resistencia R8 (10kΩ) en el lazo de retroalimentación le da ganancia unitaria al buffer, cuya función es aislar la fuente de la etapa de filtrado sin cargarla.
+<!-- ETAPA 1 -->
+<table><tr><td style="background:#EAF3DE; border-left:4px solid #639922; border-radius:6px; padding:10px 14px">
+<strong style="color:#27500A">🟢 Etapa 1 — Buffer de entrada (U1A, LM324)</strong><br>
+<span style="color:#3B6D11">La señal de audio entra por el jack J4, pasa por un capacitor de acople C1 (1µF) que bloquea la componente DC, y llega a la entrada no inversora (+) del primer op-amp. La resistencia R1 (22kΩ) fija el punto de polarización. La resistencia R8 (10kΩ) en el lazo de retroalimentación le da ganancia unitaria al buffer, cuya función es aislar la fuente de la etapa de filtrado sin cargarla.</span>
+</td></tr></table>
 
-- **Etapa 2 — Filtro pasa-bajos activo (U1B, LM324):** Formado por la red RC con R4 (100kΩ) y C2 (33nF), que define la frecuencia de corte. El potenciómetro RV1 (100kΩ) ajusta la retroalimentación del op-amp, permitiendo variar la ganancia y la "pendiente" del filtro en tiempo real. R2 (10kΩ) y R3 (10kΩ) fijan la polarización de la entrada inversora a la referencia de voltaje medio.
+<!-- ETAPA 2 -->
+<table><tr><td style="background:#FAEEDA; border-left:4px solid #BA7517; border-radius:6px; padding:10px 14px">
+<strong style="color:#633806">🟡 Etapa 2 — Filtro pasa-bajos activo (U1B, LM324)</strong><br>
+<span style="color:#854F0B">Formado por la red RC con R4 (100kΩ) y C2 (33nF), que define la frecuencia de corte. El potenciómetro RV1 (100kΩ) ajusta la retroalimentación del op-amp, permitiendo variar la ganancia y la "pendiente" del filtro en tiempo real. R2 (10kΩ) y R3 (10kΩ) fijan la polarización de la entrada inversora a la referencia de voltaje medio.</span>
+</td></tr></table>
 
-- **Etapa 3 — Segunda celda de filtrado (U1C, LM324):** Una segunda etapa RC con R7 (220kΩ) y C3 (10nF) filtra las frecuencias más altas que pasan la primera etapa. R5 (100kΩ) y R6 (100kΩ) configuran la ganancia de esta etapa. La salida pasa por un LED indicador (D9) con R10 (1kΩ), que parpadea o varía su brillo visualmente según la amplitud de la señal filtrada, útil para diagnóstico sin osciloscopio.
+<!-- ETAPA 3 -->
+<table><tr><td style="background:#EEEDFE; border-left:4px solid #7F77DD; border-radius:6px; padding:10px 14px">
+<strong style="color:#26215C">🟣 Etapa 3 — Segunda celda de filtrado (U1C, LM324)</strong><br>
+<span style="color:#3C3489">Una segunda etapa RC con R7 (220kΩ) y C3 (10nF) filtra las frecuencias más altas que pasan la primera etapa. R5 (100kΩ) y R6 (100kΩ) configuran la ganancia de esta etapa. La salida pasa por un LED indicador (D9) con R10 (1kΩ), que parpadea o varía su brillo visualmente según la amplitud de la señal filtrada, útil para diagnóstico sin osciloscopio.</span>
+</td></tr></table>
 
-- **Salida:** La señal filtrada sale por el jack J4 (AudioJack2_SwitchT) etiquetado como INPUTS/OUTPUTS, compatible con el estándar de 5V del sistema modular.
+<!-- SALIDA -->
+<table><tr><td style="background:#E1F5EE; border-left:4px solid #1D9E75; border-radius:6px; padding:10px 14px">
+<strong style="color:#04342C">🩵 Salida</strong><br>
+<span style="color:#0F6E56">La señal filtrada sale por el jack J4 (AudioJack2_SwitchT) etiquetado como INPUTS/OUTPUTS, compatible con el estándar de 5V del sistema modular.</span>
+</td></tr></table>
 
-**Dificultades encontradas:**
-
-También tuvimos problemas de sonido "gangoso" y muy atenuado al principio, causado por usar un divisor resistivo de dos 10kΩ para generar la referencia de voltaje en lugar de un regulador real. El divisor no entrega suficiente corriente cuando el circuito lo carga, haciendo que la referencia caiga. La solución fue el LM7805.
+<!-- DIFICULTADES -->
+<table><tr><td style="background:#FCEBEB; border-left:4px solid #E24B4A; border-radius:6px; padding:10px 14px">
+<strong style="color:#501313">🔴 Dificultades encontradas</strong><br>
+<span style="color:#A32D2D">También tuvimos problemas de sonido "gangoso" y muy atenuado al principio, causado por usar un divisor resistivo de dos 10kΩ para generar la referencia de voltaje en lugar de un regulador real. El divisor no entrega suficiente corriente cuando el circuito lo carga, haciendo que la referencia caiga. La solución fue el LM7805.</span>
+</td></tr></table>
 
 ### PCB 1
 
@@ -296,17 +327,42 @@ Esta segunda propuesta prescinde completamente de chips activos. Usa únicamente
 
 **Descripción del esquemático:**
 
-- **Entrada:** Jack 3.5mm (J5) con capacitor de acople C1 (1µF) para bloquear DC.
+<!-- ENTRADA -->
+<table><tr><td style="background:#E6F1FB; border-left:4px solid #378ADD; border-radius:6px; padding:10px 14px">
+<strong style="color:#0C447C">🔵 Entrada</strong><br>
+<span style="color:#185FA5">Jack 3.5mm (J5) con capacitor de acople C1 (1µF) para bloquear DC.</span>
+</td></tr></table>
 
-- **Primera red de filtrado:** El potenciómetro RV1 (100kΩ) en combinación con C2 (33nF) y C3 (330nF) forman un filtro de primer orden ajustable. Al girar RV1 se modifica la impedancia del divisor y por lo tanto la frecuencia de corte efectiva. R1 (10kΩ) y R2 (1kΩ) fijan los límites del rango de ajuste para evitar cortocircuitar la señal en los extremos del potenciómetro.
+<!-- PRIMERA RED -->
+<table><tr><td style="background:#EAF3DE; border-left:4px solid #639922; border-radius:6px; padding:10px 14px">
+<strong style="color:#27500A">🟢 Primera red de filtrado</strong><br>
+<span style="color:#3B6D11">El potenciómetro RV1 (100kΩ) en combinación con C2 (33nF) y C3 (330nF) forman un filtro de primer orden ajustable. Al girar RV1 se modifica la impedancia del divisor y por lo tanto la frecuencia de corte efectiva. R1 (10kΩ) y R2 (1kΩ) fijan los límites del rango de ajuste para evitar cortocircuitar la señal en los extremos del potenciómetro.</span>
+</td></tr></table>
 
-- **Resistencia de acople inter-etapas:** R3 (10kΩ) conecta la primera red con la segunda, aislando parcialmente ambas etapas para que no se carguen mutuamente y alteren la frecuencia de corte de forma no controlada.
+<!-- INTER-ETAPAS -->
+<table><tr><td style="background:#FAEEDA; border-left:4px solid #BA7517; border-radius:6px; padding:10px 14px">
+<strong style="color:#633806">🟡 Resistencia de acople inter-etapas</strong><br>
+<span style="color:#854F0B">R3 (10kΩ) conecta la primera red con la segunda, aislando parcialmente ambas etapas para que no se carguen mutuamente y alteren la frecuencia de corte de forma no controlada.</span>
+</td></tr></table>
 
-- **Segunda red de filtrado:** Simétrica a la primera, con RV2 (100kΩ), C4 (153nF) y C5 (154nF). R4 (10kΩ) y R5 (1kΩ) cumplen el mismo rol de limitar el rango del potenciómetro.
+<!-- SEGUNDA RED -->
+<table><tr><td style="background:#EEEDFE; border-left:4px solid #7F77DD; border-radius:6px; padding:10px 14px">
+<strong style="color:#26215C">🟣 Segunda red de filtrado</strong><br>
+<span style="color:#3C3489">Simétrica a la primera, con RV2 (100kΩ), C4 (153nF) y C5 (154nF). R4 (10kΩ) y R5 (1kΩ) cumplen el mismo rol de limitar el rango del potenciómetro.</span>
+</td></tr></table>
 
-- **Salida:** Jack 3.5mm (J4) etiquetado como INPUTS/OUTPUTS.
+<!-- SALIDA -->
+<table><tr><td style="background:#E1F5EE; border-left:4px solid #1D9E75; border-radius:6px; padding:10px 14px">
+<strong style="color:#04342C">🩵 Salida</strong><br>
+<span style="color:#0F6E56">Jack 3.5mm (J4) etiquetado como INPUTS/OUTPUTS.</span>
+</td></tr></table>
 
-**Ventajas y limitaciones:** Al ser pasivo, este filtro no consume energía y no puede quemar ningún chip. Sin embargo, tiene atenuación inherente (la señal de salida siempre es más baja que la de entrada) y no tiene ganancia. Fue útil como referencia comparativa para entender qué aporta el op-amp en el circuito activo.
+<!-- VENTAJAS Y LIMITACIONES -->
+<table><tr><td style="background:#F1EFE8; border-left:4px solid #888780; border-radius:6px; padding:10px 14px">
+<strong style="color:#2C2C2A">⚪ Ventajas y limitaciones</strong><br>
+<span style="color:#5F5E5A">Al ser pasivo, este filtro no consume energía y no puede quemar ningún chip. Sin embargo, tiene atenuación inherente (la señal de salida siempre es más baja que la de entrada) y no tiene ganancia. Fue útil como referencia comparativa para entender qué aporta el op-amp en el circuito activo.</span>
+</td></tr></table>
+
 
 ### PCB 1
 
@@ -370,6 +426,9 @@ El diseño circular con pistas en espiral también evoca inevitablemente un **to
 - Conectar un LED directamente a un pin de op-amp sin resistencia limitadora **quema el chip**
 - El filtro pasivo, aunque más simple, permite entender qué rol cumple exactamente el op-amp en el activo
 - El diseño de la PCB es parte del proyecto: la forma puede comunicar el concepto igual que el circuito
+- Trabajo en equipo
+- Organización
+- Paciencia y actitud
 
 ---
 
