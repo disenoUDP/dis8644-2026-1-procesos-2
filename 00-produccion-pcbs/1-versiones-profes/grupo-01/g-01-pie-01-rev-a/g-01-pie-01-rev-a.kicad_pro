@@ -495,7 +495,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "piezo-01-v05.kicad_pro",
+    "filename": "g-01-pie-01-rev-a.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -650,18 +650,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "piezo-01-v05.kicad_sch",
-        "name": "Raíz",
+        "filename": "g-01-pie-01-rev-a.kicad_sch",
+        "name": "g-01-pie-01-rev-a",
         "uuid": "2c584da5-264c-4a05-9e77-79d245003671"
       }
     ],
-    "used_designators": "J2,J4-8,R1-18,#FLG1-3,#FLG5,D1-8,BT1,#PWR1-16,#PWR18-30,#PWR32-38,C1-7,C9-13,H1-4,Q1,RV1-2,SW3,U1-4",
+    "used_designators": "R7-8,#PWR11,J8-9",
     "variants": []
   },
   "sheets": [
     [
       "2c584da5-264c-4a05-9e77-79d245003671",
-      "Raíz"
+      "g-01-pie-01-rev-a"
     ]
   ],
   "text_variables": {},

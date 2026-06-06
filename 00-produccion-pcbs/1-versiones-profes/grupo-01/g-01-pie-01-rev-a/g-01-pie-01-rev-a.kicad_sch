@@ -520,187 +520,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016)
@@ -4539,6 +4358,12 @@
 		(uuid "164dfd9c-46ef-4024-afba-eace0f788ee1")
 	)
 	(junction
+		(at 256.54 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25ebc33d-b9a3-4d90-9dbc-03d22263ea32")
+	)
+	(junction
 		(at 86.36 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4641,10 +4466,10 @@
 		(uuid "9ab83e17-b4ab-4d9b-9ca3-adcd4f796763")
 	)
 	(junction
-		(at 256.54 125.73)
+		(at 246.38 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a17046f3-78f0-4474-833f-96e997456b30")
+		(uuid "9e6fdddb-0be8-4a78-bb2e-fdb7a282f071")
 	)
 	(junction
 		(at 92.71 105.41)
@@ -4699,12 +4524,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eae18853-a2f0-46a2-80a8-f21772c383fe")
-	)
-	(junction
-		(at 246.38 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee2a8d82-b4a2-4e93-9640-7be7733c74d7")
 	)
 	(junction
 		(at 99.06 35.56)
@@ -5070,6 +4889,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 129.54) (xy 139.7 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45880d1b-f797-46c5-82a2-f74b41e91c55")
+	)
+	(wire
+		(pts
 			(xy 217.17 109.22) (xy 217.17 120.65)
 		)
 		(stroke
@@ -5150,6 +4979,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 145.415) (xy 139.7 145.415)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52517b6d-1b2a-420b-aa46-176f9d496fd4")
+	)
+	(wire
+		(pts
 			(xy 41.91 128.27) (xy 68.58 128.27)
 		)
 		(stroke
@@ -5167,6 +5006,16 @@
 			(type default)
 		)
 		(uuid "55c500bc-5820-492e-ade0-a1d08fc4bdea")
+	)
+	(wire
+		(pts
+			(xy 254 125.73) (xy 256.54 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57fcb805-b6cf-42d1-80dd-7ed6dcd7928b")
 	)
 	(wire
 		(pts
@@ -5237,16 +5086,6 @@
 			(type default)
 		)
 		(uuid "5e455bfc-1839-4747-b79f-722bbdb25f20")
-	)
-	(wire
-		(pts
-			(xy 246.38 125.73) (xy 256.54 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62375ea2-a9a7-4557-b13b-3b404db65cfb")
 	)
 	(wire
 		(pts
@@ -5400,6 +5239,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 145.415) (xy 139.7 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a412343-ac86-4acf-9f8e-767500a39d0c")
+	)
+	(wire
+		(pts
 			(xy 116.84 102.87) (xy 120.65 102.87)
 		)
 		(stroke
@@ -5417,6 +5266,16 @@
 			(type default)
 		)
 		(uuid "90a36f96-2025-4212-9028-e9c1b631e62f")
+	)
+	(wire
+		(pts
+			(xy 139.7 127) (xy 152.4 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e283b9-24cf-47fd-9618-0f849bcb8730")
 	)
 	(wire
 		(pts
@@ -5447,6 +5306,16 @@
 			(type default)
 		)
 		(uuid "93e0a919-baec-4e05-a006-d4a59097bf34")
+	)
+	(wire
+		(pts
+			(xy 139.7 137.16) (xy 139.7 142.875)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95b7e11a-84c8-42e4-ac2b-b008b00a9715")
 	)
 	(wire
 		(pts
@@ -5930,6 +5799,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 142.875) (xy 130.81 142.875)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed888935-8779-49b0-808f-5b90c5287f5f")
+	)
+	(wire
+		(pts
 			(xy 39.37 162.56) (xy 45.72 162.56)
 		)
 		(stroke
@@ -6078,7 +5957,7 @@
 			(uuid "4233270b-53a1-4b98-a21e-1e92ed1b7efd")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#FLG05")
 					(unit 1)
@@ -6160,7 +6039,7 @@
 			(uuid "dfa701bd-c647-4735-8995-781bc15cd7a7")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "C7")
 					(unit 1)
@@ -6238,7 +6117,7 @@
 			(uuid "6ff39e01-eb9c-404f-8bc3-4e32149791ce")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR027")
 					(unit 1)
@@ -6318,7 +6197,7 @@
 			(uuid "9f4530f7-ace4-47fa-8a35-51014d9dbb47")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "R3")
 					(unit 1)
@@ -6394,7 +6273,7 @@
 			)
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "H4")
 					(unit 1)
@@ -6474,7 +6353,7 @@
 			(uuid "bb9a680b-4920-41d1-be65-5ddb93367702")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "C1")
 					(unit 1)
@@ -6558,7 +6437,7 @@
 			(uuid "2141bab9-235f-4c8d-92d9-b028400fb278")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "U3")
 					(unit 1)
@@ -6636,7 +6515,7 @@
 			(uuid "dd4ac932-f6cc-42bb-a2a2-ebf14147e079")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR026")
 					(unit 1)
@@ -6718,7 +6597,7 @@
 			(uuid "ef9cfcde-a29a-4305-8150-bcbbe3faa590")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "R2")
 					(unit 1)
@@ -6800,7 +6679,7 @@
 			(uuid "a1cd470c-770d-48a8-af64-7bdf67fb191b")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "C6")
 					(unit 1)
@@ -6878,7 +6757,7 @@
 			(uuid "9161398d-c3a9-4fcf-a9a5-8d196ba457be")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR034")
 					(unit 1)
@@ -6960,9 +6839,92 @@
 			(uuid "267ccff3-457f-4bb6-b784-042b6768cdd7")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 25.4 106.68 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "245a6401-e729-4e4e-a92c-1fba31360278")
+		(property "Reference" "J8"
+			(at 24.765 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack2_SwitchT"
+			(at 24.765 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "dis8644:PJ301M-12"
+			(at 25.4 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 25.4 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "068e9e2a-8011-453c-a9ca-723654998167")
+		)
+		(pin "1"
+			(uuid "84d45258-457c-436c-a008-b13ce67d204d")
+		)
+		(pin "2"
+			(uuid "928a8c2e-029f-4644-beb5-139548672962")
+		)
+		(instances
+			(project "g-01-pie-01-rev-a"
+				(path "/2c584da5-264c-4a05-9e77-79d245003671"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -7038,7 +7000,7 @@
 			(uuid "831e9663-71c2-4bd3-8d6b-3bd3459d4053")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR021")
 					(unit 1)
@@ -7131,7 +7093,7 @@
 			(uuid "defc3827-27d8-4d52-97a7-77129a564c3c")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "D1")
 					(unit 1)
@@ -7246,7 +7208,7 @@
 			(uuid "13b13c3d-97e3-4f0e-93e8-8095c6e9b7cc")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "BT1")
 					(unit 1)
@@ -7324,7 +7286,7 @@
 			(uuid "af9555dd-964a-4aa9-81a0-03d82ec0173b")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR030")
 					(unit 1)
@@ -7402,7 +7364,7 @@
 			(uuid "0093bc60-f9e1-4e52-aea6-6adedb472ad3")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR023")
 					(unit 1)
@@ -7478,7 +7440,7 @@
 			)
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "H1")
 					(unit 1)
@@ -7558,7 +7520,7 @@
 			(uuid "bfb9741e-e487-42cd-8c36-af347d8d4a9e")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "R18")
 					(unit 1)
@@ -7636,7 +7598,7 @@
 			(uuid "bf8982ff-aa0b-45e5-87f0-53bf5da20bf3")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR029")
 					(unit 1)
@@ -7714,9 +7676,87 @@
 			(uuid "ad1a2e53-e724-43af-a0d3-e6ed9c913b64")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 149.225 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ebc466c-ad1c-4987-81cb-60d0b5c371c6")
+		(property "Reference" "#PWR011"
+			(at 139.7 155.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 154.305 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 149.225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 149.225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 149.225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26c42e6a-f6a0-42cf-86e0-db3bc0d225c0")
+		)
+		(instances
+			(project "g-01-pie-01-rev-a"
+				(path "/2c584da5-264c-4a05-9e77-79d245003671"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7792,7 +7832,7 @@
 			(uuid "bbd52d22-c4e5-40c5-b9d0-3821f5e263df")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR05")
 					(unit 1)
@@ -7870,7 +7910,7 @@
 			(uuid "e9ccadff-b458-4a0c-83f8-5b1a4ec74617")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR01")
 					(unit 1)
@@ -7901,7 +7941,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 u"
+		(property "Value" "100u"
 			(at 234.95 140.0809 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7952,9 +7992,174 @@
 			(uuid "2b004951-1345-4632-bb99-785eb417927a")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 139.7 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fa9ac27-60fb-4f41-bb95-4bbe74f52283")
+		(property "Reference" "R8"
+			(at 142.24 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 142.24 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 137.922 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 139.7 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06f98aef-04cd-4a2c-b57c-cb849c6362a8")
+		)
+		(pin "2"
+			(uuid "fa638260-1dc6-4e6f-aa72-ebe494fb2dbb")
+		)
+		(instances
+			(project "g-01-pie-01-rev-a"
+				(path "/2c584da5-264c-4a05-9e77-79d245003671"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 125.73 142.875 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5d472449-ffbc-4a4d-81c6-46f4fe5e6f3d")
+		(property "Reference" "J9"
+			(at 125.095 151.765 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack2_SwitchT"
+			(at 125.095 149.225 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "dis8644:PJ301M-12"
+			(at 125.73 133.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 142.875 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 125.73 142.875 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "27aeb009-d36b-4e6f-89de-1ba762f8e6b3")
+		)
+		(pin "1"
+			(uuid "65d71291-8fd9-436a-a851-64ab1ae6eae2")
+		)
+		(pin "2"
+			(uuid "069ff244-c403-4297-9438-88a4905edfee")
+		)
+		(instances
+			(project "g-01-pie-01-rev-a"
+				(path "/2c584da5-264c-4a05-9e77-79d245003671"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -8062,7 +8267,7 @@
 			(uuid "35465678-98f5-4fdb-b8d6-795d0e0964d6")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "Q1")
 					(unit 1)
@@ -8140,7 +8345,7 @@
 			(uuid "8d564a71-995b-4619-990c-977a23744d5b")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR032")
 					(unit 1)
@@ -8239,7 +8444,7 @@
 			(uuid "98040ee3-4e85-45a6-8aa1-dc38e7967a0b")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "U4")
 					(unit 3)
@@ -8320,89 +8525,9 @@
 			(uuid "653cf6e7-da38-4723-89e3-afba46910715")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 25.4 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e73e107-28aa-4ca8-bdb4-39df0c0e90c4")
-		(property "Reference" "J2"
-			(at 26.035 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 26.035 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 25.4 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 25.4 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "33e6fb12-32a7-4ec5-b59b-16c41925f5d6")
-		)
-		(pin "1"
-			(uuid "b88da8d9-3676-4d1b-8f59-6045be53d327")
-		)
-		(instances
-			(project "piezo-01-v05"
-				(path "/2c584da5-264c-4a05-9e77-79d245003671"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8482,7 +8607,7 @@
 			(uuid "d57079f3-a144-44b3-821e-3d52eb564163")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "SW3")
 					(unit 1)
@@ -8562,7 +8687,7 @@
 			(uuid "0596d2d4-5656-41c5-b830-ca89e380c1d0")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "C9")
 					(unit 1)
@@ -8640,7 +8765,7 @@
 			(uuid "102599be-511c-4675-babf-95ca615bf395")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR07")
 					(unit 1)
@@ -8718,7 +8843,7 @@
 			(uuid "54a37150-da86-4ea8-b717-560e83eaebba")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#FLG02")
 					(unit 1)
@@ -8800,7 +8925,7 @@
 			(uuid "4cac6d5f-0579-4718-a8d2-5180e6b6222b")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "R5")
 					(unit 1)
@@ -8831,7 +8956,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 u"
+		(property "Value" "100u"
 			(at 214.63 140.0809 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8882,7 +9007,7 @@
 			(uuid "a5cd6713-9115-4b6c-93f9-f2451c99b648")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "C2")
 					(unit 1)
@@ -8960,7 +9085,7 @@
 			(uuid "fef19be9-24b8-4591-95d4-487f4226e225")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR036")
 					(unit 1)
@@ -9042,7 +9167,7 @@
 			(uuid "6dd0d02a-112b-40b2-bd47-558ed6fb4605")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "C5")
 					(unit 1)
@@ -9124,7 +9249,7 @@
 			(uuid "ddedcef5-a82a-4dbd-972d-3df845e9c77a")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "R6")
 					(unit 1)
@@ -9202,7 +9327,7 @@
 			(uuid "7284a62d-7b66-4736-82e8-5c0462d39d60")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR028")
 					(unit 1)
@@ -9280,7 +9405,7 @@
 			(uuid "b446f989-4ffc-4689-a871-21dfe14b7baa")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#FLG01")
 					(unit 1)
@@ -9373,7 +9498,7 @@
 			(uuid "c5eff30d-897c-4a42-a47a-7e7515a5590c")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "D2")
 					(unit 1)
@@ -9454,7 +9579,7 @@
 			(uuid "f31dabae-7b13-4f3e-abc3-711f3173b006")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "R17")
 					(unit 1)
@@ -9532,7 +9657,7 @@
 			(uuid "872a131a-f627-4853-95fd-8e6e5f944230")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR04")
 					(unit 1)
@@ -9613,7 +9738,7 @@
 			(uuid "444a9844-56fe-493d-aa64-3f825140ef99")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "C11")
 					(unit 1)
@@ -9691,7 +9816,7 @@
 			(uuid "e7f8a258-e9b5-4413-8e4c-6571cf8fef03")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR037")
 					(unit 1)
@@ -9771,7 +9896,7 @@
 			(uuid "478270b3-ee2a-449f-bc67-249ed42eb914")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "R14")
 					(unit 1)
@@ -9801,7 +9926,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7n"
+		(property "Value" "4n7"
 			(at 156.2163 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9851,7 +9976,7 @@
 			(uuid "db87296e-c6d7-42b4-afe8-8a1b0e10f4b1")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "C12")
 					(unit 1)
@@ -9929,7 +10054,7 @@
 			(uuid "bdcc1b53-0384-4c11-abbd-7d9216df065f")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR03")
 					(unit 1)
@@ -10007,7 +10132,7 @@
 			(uuid "4bf17c20-1359-456f-8f42-59eb20213ae9")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#FLG03")
 					(unit 1)
@@ -10089,7 +10214,7 @@
 			(uuid "345913ea-e79f-495e-93c6-8fb7a7ddbc4d")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "R4")
 					(unit 1)
@@ -10172,7 +10297,7 @@
 			(uuid "8304af2b-13be-4ee7-9844-7071ae7319fa")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "J5")
 					(unit 1)
@@ -10203,7 +10328,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "2M"
 			(at 44.45 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10254,7 +10379,7 @@
 			(uuid "4a307be3-ac5d-459c-abbf-307137dea714")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "R15")
 					(unit 1)
@@ -10372,7 +10497,7 @@
 			(uuid "79ca099c-dbe2-4b45-9357-c2add4acba9b")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "RV1")
 					(unit 1)
@@ -10469,7 +10594,7 @@
 			(uuid "98040ee3-4e85-45a6-8aa1-dc38e7967a0c")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "U4")
 					(unit 1)
@@ -10550,7 +10675,7 @@
 			(uuid "0cfde9df-e493-4a60-b836-4f295231944d")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "C10")
 					(unit 1)
@@ -10627,7 +10752,7 @@
 			(uuid "3cfdfc44-707a-45d2-8219-e8620c1b2670")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR038")
 					(unit 1)
@@ -10707,9 +10832,89 @@
 			(uuid "a75fba06-1218-45d5-84e9-c75e8a1a0f91")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 250.19 125.73 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4260765-df56-4612-a197-39bd88cbdb97")
+		(property "Reference" "R7"
+			(at 250.19 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 250.19 121.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 250.19 127.508 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 250.19 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4425f3b4-47be-4970-845f-7e2b7b74eaf5")
+		)
+		(pin "1"
+			(uuid "dde5f5c2-d739-4b8d-b600-de98ead6f44f")
+		)
+		(instances
+			(project "g-01-pie-01-rev-a"
+				(path "/2c584da5-264c-4a05-9e77-79d245003671"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -10785,7 +10990,7 @@
 			(uuid "e3975b0c-4285-457d-902d-9f2193d25208")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR025")
 					(unit 1)
@@ -10877,7 +11082,7 @@
 			(uuid "5fa05566-4cb6-4aae-b637-3c36f45a6193")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "D8")
 					(unit 1)
@@ -10955,7 +11160,7 @@
 			(uuid "fb6d2d89-7669-4c27-9a58-d6ed8fa2e755")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR015")
 					(unit 1)
@@ -11033,7 +11238,7 @@
 			(uuid "66c5d9d1-62d3-4ca0-b0eb-c636ae0033cb")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR022")
 					(unit 1)
@@ -11115,7 +11320,7 @@
 			(uuid "7442bd92-48b2-4266-b206-cb0fd11bda2f")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "J4")
 					(unit 1)
@@ -11196,7 +11401,7 @@
 			(uuid "c6bf178b-507e-4814-9af1-5000d90f4109")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "R11")
 					(unit 1)
@@ -11272,7 +11477,7 @@
 			)
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "H2")
 					(unit 1)
@@ -11348,7 +11553,7 @@
 			)
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "H3")
 					(unit 1)
@@ -11449,7 +11654,7 @@
 			(uuid "b1e7df3c-1c18-4cc1-9817-103c713f3e1d")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "D5")
 					(unit 1)
@@ -11527,7 +11732,7 @@
 			(uuid "2ca92d6b-8fe5-4909-9690-6ac619f180d7")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR016")
 					(unit 1)
@@ -11605,7 +11810,7 @@
 			(uuid "1d4959d9-7f9b-4cb3-83fa-31d4969323bd")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR035")
 					(unit 1)
@@ -11683,7 +11888,7 @@
 			(uuid "ea503292-238d-4072-8701-6dca30f956d1")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR08")
 					(unit 1)
@@ -11765,7 +11970,7 @@
 			(uuid "a1452b0e-71fb-42b2-8d7c-50d9113d0588")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "R1")
 					(unit 1)
@@ -11846,7 +12051,7 @@
 			(uuid "75748b64-364e-453d-a92f-49227a7a7f5e")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "R16")
 					(unit 1)
@@ -11924,7 +12129,7 @@
 			(uuid "64789475-05dc-4675-93bb-d8ca66855ea8")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR09")
 					(unit 1)
@@ -12007,7 +12212,7 @@
 			(uuid "812a85e7-1438-4a5d-b099-1d20e721c449")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "J6")
 					(unit 1)
@@ -12085,7 +12290,7 @@
 			(uuid "d953f65d-3b07-467f-a3bb-5fb4123deedc")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR019")
 					(unit 1)
@@ -12163,7 +12368,7 @@
 			(uuid "14ebc592-2932-4952-98de-1dfd375f912c")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR014")
 					(unit 1)
@@ -12241,7 +12446,7 @@
 			(uuid "aa061612-766d-4da1-a835-4108c33c182f")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR06")
 					(unit 1)
@@ -12323,7 +12528,7 @@
 			(uuid "3d653a1d-16dd-4cf2-90bc-e26afbbcaef6")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "R13")
 					(unit 1)
@@ -12402,7 +12607,7 @@
 			(uuid "294b2b4d-6cd6-4590-bacf-4c10819b6737")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "D7")
 					(unit 1)
@@ -12480,7 +12685,7 @@
 			(uuid "23b76def-77bd-4500-831f-6cdc55514522")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR020")
 					(unit 1)
@@ -12595,7 +12800,7 @@
 			(uuid "0efda8da-1f89-465f-bdc6-0ff66a0397c3")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "RV2")
 					(unit 1)
@@ -12679,7 +12884,7 @@
 			(uuid "dcb97947-9389-4c87-9a31-b3459f842722")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "J7")
 					(unit 1)
@@ -12757,7 +12962,7 @@
 			(uuid "d3854efd-5835-4e99-b21d-4cd5501d465c")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR010")
 					(unit 1)
@@ -12835,7 +13040,7 @@
 			(uuid "e92b955e-65a9-4ca8-a93d-62e5b0090c1a")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR018")
 					(unit 1)
@@ -12913,7 +13118,7 @@
 			(uuid "d3130915-5113-4c5a-8623-20e377676400")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "#PWR02")
 					(unit 1)
@@ -13011,7 +13216,7 @@
 			(uuid "0b9cd5ec-7259-435e-bd49-b836f6471376")
 		)
 		(instances
-			(project "piezo-01-v05"
+			(project "g-01-pie-01-rev-a"
 				(path "/2c584da5-264c-4a05-9e77-79d245003671"
 					(reference "U1")
 					(unit 1)
