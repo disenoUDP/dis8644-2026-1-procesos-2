@@ -89,6 +89,17 @@ en pcb:
 - CatalinaJeria
 - Luisaatoro9
 
+### g-05-fil-01-rev-a
+
+- error grave en la nomenclatura de los proyectos: el 01 en su README dicen que es el activo, pero en Kicad es el pasivo
+- cambiamos C1 por condensador no polarizado
+- conectamos patita del medio de potenciómetro
+- confusión en los tamaños de los condensadores C4 y C5
+
+### g-05-fil-02-rev-a
+
+- - error grave en la nomenclatura de los proyectos: el 01 en su README dicen que es el activo, pero en Kicad es el pasivo
+
 ## grupo-06: percusiones
 
 - terroiblea
