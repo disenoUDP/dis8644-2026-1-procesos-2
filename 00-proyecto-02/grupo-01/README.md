@@ -68,6 +68,10 @@ Para afinar la señal que recibe el inversor, colocamos un filtro low-pass, esto
 
 ![proto-1-1](./imagenes/piezo-01-1.jpg)
 
+![proto-1-2](./imagenes/piezo-01-2.jpg)
+
+![proto-1-3](./imagenes/piezo-01-3.jpg)
+
 ![piezo cuello](./imagenes/piezo-cuello.jpg)
 
 ### BOM
@@ -153,6 +157,10 @@ Archivo piezo-02-v04: Solo regulador integrado.
 [video-piezo-02](https://youtu.be/MbAfNLuIrsg)
 
 ![proto-2-1](./imagenes/piezo-02-1.jpg)
+
+![proto-2-2](./imagenes/piezo-02-2.jpg)
+
+![proto-2-3](./imagenes/piezo-02-3.jpg)
 
 ### BOM
 
