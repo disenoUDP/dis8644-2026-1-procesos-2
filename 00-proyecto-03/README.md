@@ -15,3 +15,4 @@
 ## referencias
 
 - partituras experimentales <https://llllllll.co/t/experimental-music-notation-resources/149/55?page=4>
+- más partituras experimentales <https://www.theguardian.com/music/gallery/2013/oct/04/graphic-music-scores-in-pictures>
