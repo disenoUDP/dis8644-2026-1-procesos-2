@@ -18,7 +18,9 @@ Gracias a la clase pasada, pudimos corregir el esquemático, y hacer que nuestra
 
 Este oscilador, genera ondas cuadradas, y ondas tipo sierra (con los potenciómetros, podemos generar un ataque y una decaída). 
 
-(Foto esquemático corregido).
+*(Foto esquemático corregido oficial).*
+![esquemático 1](./imagenes/esquematico-1.png)
+
 
 ## 2.	Problemas con propuesta 2.
 
@@ -41,6 +43,8 @@ El circuito nos funcionó, y sonaba, pero luego dejo de hacerlo, y fue porque se
 Para obtener un sonido diferente, cambiamos los condensadores de 100uf por condensadores de 1uf, pues los de 100uf, hacían que las oscilaciones fueran más lentas, y a su vez, más graves…, cuando lo cambiamos a condensadores de 1uf, fue todo lo contrario, las oscilaciones eran más rápidas, más ruidosas, e incluso, el tono era más agradable. 
 
 Slay.
+
+![esquemático 2](./imagenes/esquematico-2.png)
 
 ## 4.	PCB listas para presentación de proyecto.
 -	Propuesta 01: Chirihue Mecanizado
