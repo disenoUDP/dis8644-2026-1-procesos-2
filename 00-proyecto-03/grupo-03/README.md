@@ -67,13 +67,43 @@ Definimos con cuál PCB de otro grupo queríamos trabajar e implementar en nuest
 
 De la misma manera, soldamos a Relo con los componentes que teníamos disponibles. 
 
+![soldando](./imagenes/CD4015.png)
+
+![placas](./imagenes/CD4015.png)
+
+![placassoldadass](./imagenes/CD4015.png)
+
+![fotogrupal](./imagenes/CD4015.png)
+
 ## Partituras 
 
+![comandoestelar](./imagenes/CD4015.png)
 
 
+Hicimos esta partitura a partir de lo que nos hacía imaginar el sonido de nuestro sintetizador, Comando Estelar. Mientras escuchábamos las distintas oscilaciones, cada uno fue dibujando libremente las formas que le transmitía el sonido. Por eso aparecen líneas onduladas, espirales, trazos más fuertes y otros más suaves.
+
+La idea era representar visualmente cómo percibíamos el sonido. Algunas líneas más repetitivas representan sonidos constantes o vibraciones, mientras que los trazos más caóticos o las espirales representan sonidos más intensos o cambios bruscos que escuchábamos.
+
+Elegimos las formas curvas y continuas porque se parecen a cómo funciona nuestro circuito en la realidad. Al mover la perilla del potenciómetro, el sonido no cambia de golpe o por saltos, sino que sube y baja como un flujo constante y fluido, lo que nos hizo dibujar esas líneas más suaves. Además, cuando el sonido del oscilador se ponía más intenso, concentrado o medio distorsionado, se nos ocurrió juntar los trazos y armar espirales para atrapar toda esa energía en el dibujo. Por otro lado, las ondas que dejamos más abiertas y tranquilas son para los momentos cuando el circuito tira sonidos más graves.
+
+también , nos inspiramos en algunos referentes de partituras gráficas que vimos anteriormente, pero le dimos vida a nuestra pieza gráfica con la ayuda de nuestra interpretación de los sonidos del sintetizador.
 
 
+![resonancia](./imagenes/resonancia.png)
 
+
+Respecto a esta partitura, buscamos referentes de partituras experimentales y, en base a ello, nos gustó la idea de interpretarla no como una notación musical particular, sino llevarla más hacia elementos visuales que representaran lo que escuchábamos. Al prestar atención a cómo sonaba nuestro oscilador, cada uno interpretó mediante alguna forma, símbolo o línea aquello que percibía. Finalmente, coincidimos en esta forma de espiral, que aumenta o disminuye su tamaño según los cambios de intensidad, frecuencia y comportamiento del sonido.
+
+Así, nuestra partitura lleva la experiencia auditiva al plano gráfico. Además, la repetición de los círculos y sus distintos tamaños representan cómo el sonido se expande y genera vibraciones.
+
+
+![referente1](./imagenes/referente1.png)
+
+![referente2](./imagenes/referent2.png)
+
+![referente3](./imagenes/referente3.png)
+
+![referente4](./imagenes/referente4.png)
 
 
 
