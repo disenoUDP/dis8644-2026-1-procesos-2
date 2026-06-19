@@ -9,6 +9,7 @@ Estuvimos analizando los entregables para el proyecto 03 los cuales consistían 
 + 3 placas soldadas
 
 **Partituras**
+
 Estuvimos pensando la manera en la que nos queríamos expresar con la partitura. Se nos ocurrió usar un tipo de camino de línea punteada, algo así como un sendero, combinándolo con los latidos del corazón.
 ![Abeja](./imagenes/abeja.jpg)
 
