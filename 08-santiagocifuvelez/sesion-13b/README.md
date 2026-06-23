@@ -49,3 +49,8 @@ Avance del primer BOM
 ---
 
 ## 3.	Ono, cap. 3, 4
+
+### Capítulo 3 — Evento
+
+Lo que más me llamo la atención de este capítulo, es la capacidad de la autora de contar como de forma “humorística” o como “fuera de un contexto” al que estamos acostumbrados a escuchar o ver ciertas cosas, ciertos eventos que creo que todxs sin excepción hemos ya hecho o al menos pensado; Por ejemplo, este texto, lo sentí muy familiar: 
+
