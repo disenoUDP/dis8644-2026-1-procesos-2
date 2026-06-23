@@ -17,10 +17,10 @@ Veamos que tal c:
 ### **Realización de nuestros sueños:**  
 Como comenté al inicio de esta bitácora, en esta clase tuvimos una charla en la que lxs docentes, nos explicaron cuales eran los pasos para enviar a realizar nuestros sueños realidad, los cuales, si mal no recuerdo, eran los siguientes: 
 
-*1.	Para exportar nuestra iconica placa PCB, se debe hacer en formato “gerber” (.gbr), y para esto necesitamos mínimo exportar 7 capas: 2 de cobre, 2 de silkscreen, 2 de máscara, y el contorno.*  
-*2.	Luego, para exportarlo ahora sí, se hace con el botón de “plot”, que está arriba a la izquierda.*  
-*3.	En la ventana que aparezca: A la izquierda elijo que capas seleccionaré, y se guarda en una carpeta.*  
-*4.	Después hay que hacer 2 clicks: Plot y generar archivos de taladrado, luego se comprime el archivo, y listo.*
+- *1.	Para exportar nuestra iconica placa PCB, se debe hacer en formato “gerber” (.gbr), y para esto necesitamos mínimo exportar 7 capas: 2 de cobre, 2 de silkscreen, 2 de máscara, y el contorno.*  
+- *2.	Luego, para exportarlo ahora sí, se hace con el botón de “plot”, que está arriba a la izquierda.*  
+- *3.	En la ventana que aparezca: A la izquierda elijo que capas seleccionaré, y se guarda en una carpeta.*  
+- *4.	Después hay que hacer 2 clicks: Plot y generar archivos de taladrado, luego se comprime el archivo, y listo.*
 
 Para finalizar, subimos el archivo gerber (.gbr) a JLCPCB. En la ventana de cotización no solo se muestra el costo de fabricación, sino que también se realiza una primera verificación para confirmar que el archivo fue generado correctamente. Con la opción Gerber View podemos revisar las capas y visualizar la placa en 3D, comprobando que las dimensiones sean las adecuadas. Luego definimos la cantidad de placas a fabricar, el color de la PCB y el tipo de acabado. (En este caso, lxs profes seleccionaron “HASL”, el acabado estándar disponible con o sin plomo), siendo la opción libre de plomo la más recomendable por motivos de salud y sostenibilidad.
 
