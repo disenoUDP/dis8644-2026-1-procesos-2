@@ -99,7 +99,7 @@ lista de materiales con costos. Incluir tiempo de soldadura
 | Capacitor 100nF | 1 | C5 | $500 | Victronics | |
 | Capacitor 100uF | 2 | C2, C6 | $670 | Victronics | |
 | Capacitor 10uF | 2 | C3, C4  | $330 | Victronics | |
-| Capacitor 1uF | 1 | 1 | $300 | Victronics | |
+| Capacitor 1uF | 1 | ?? | $300 | Victronics | |
 | Jack DC | 2 | J2, J3 | $150 | Electrónica Real | |
 | Jack de audio | 1 | J1 | $150-$300 | Victronics | |
 
@@ -116,7 +116,7 @@ lista de materiales con costos. Incluir tiempo de soldadura
 decisiones materiales y formales de la carcasa
 inspiración y referentes (con cita)
 
-Carcasas individuales para cada PCB, se busca celebrar el diseño de las mismas mediante la transparencia del acrilico, rompiendo la caja negra invitando a la apreciación integra de cada PCB y sus distintos componentes
+Carcasas individuales para cada PCB, se busca celebrar el diseño de las mismas mediante la transparencia del acrilico, rompiendo la caja negra e invitando a la apreciación integra de cada PCB y sus distintos componentes
 
 ## composición
 partitura e interpretación
